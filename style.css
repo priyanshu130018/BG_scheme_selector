@@ -1,0 +1,54 @@
+h1{
+    text-align: center;
+    font-style: times new roman;
+    background-color: #212121;
+    color: white;
+    padding: 20px 0px;
+    margin: 0;
+}
+h3{
+    text-align: center;
+    font-style: times new roman;
+    background-color: #212121;
+    color: white;
+    margin-top: 0;
+    padding: 5px 0px;
+}
+#container{
+    text-align: center;
+    gap:10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    height: 10vh;
+    width: 10vh;
+    padding: 22px;
+    border: 3px solid black;
+    cursor: pointer;
+}
+
+#bg1{
+    background-color: black;
+    color: white;
+}
+#bg2{
+    background-color: white;
+}
+#bg3{
+    background-color: red;
+}
+#bg4{
+    background-color: green;
+}
+#bg5{
+    background-color: yellow;
+}
+#bg6{
+    background-color: blue;
+}
+#bg7 a{
+    text-decoration:none;
+}
