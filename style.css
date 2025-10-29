@@ -1,7 +1,7 @@
 h1{
     text-align: center;
     font-style: times new roman;
-    background-color: #212121;
+    background-color: #000000;
     color: white;
     padding: 20px 0px;
     margin: 0;
@@ -9,14 +9,13 @@ h1{
 h3{
     text-align: center;
     font-style: times new roman;
-    background-color: #212121;
-    color: white;
+    background-color: #b3aaaa;
+    color: rgb(0, 0, 0);
     margin-top: 0;
     padding: 5px 0px;
 }
 #container{
-    text-align: center;
-    gap:10px;
+    gap:15px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -25,30 +24,40 @@ h3{
 .box{
     height: 10vh;
     width: 10vh;
-    padding: 22px;
-    border: 3px solid black;
+    padding: 30px;
     cursor: pointer;
+    transition: transform 0.2s ease, background-color 0.2s;
+}
+.box:hover {
+    transform: scale(1.1);
 }
 
 #bg1{
+    text-align: center;
+    background-color: white;
+}
+#bg2{
+    text-align: center;
     background-color: black;
     color: white;
 }
-#bg2{
-    background-color: white;
-}
 #bg3{
+    text-align: center;
     background-color: red;
 }
 #bg4{
+    text-align: center;
     background-color: green;
 }
 #bg5{
+    text-align: center;
     background-color: yellow;
 }
 #bg6{
+    text-align: center;
     background-color: blue;
 }
 #bg7 a{
+    text-align: center;
     text-decoration:none;
 }
